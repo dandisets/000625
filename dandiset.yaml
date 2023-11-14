@@ -43,7 +43,7 @@ assetsSummary:
   - OpticalChannel
   - PlaneSegmentation
 citation: Geiller, Tristan (2023) Molecularly Identified CA1 Interneuron Dynamics
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000625/draft
+  (Version 0.231114.0017) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000625/0.231114.0017
 contributor:
 - affiliation:
   - identifier: https://ror.org/00hj8s172
@@ -105,29 +105,30 @@ contributor:
   schemaKey: Organization
   url: http://www.ninds.nih.gov/
 dateCreated: '2023-09-06T16:30:08.447291+00:00'
-datePublished: '2023-11-14T00:19:40.618448+00:00'
+datePublished: '2023-11-14T00:17:01.340743+00:00'
 description: 'This dataset was collected to examine the dynamics of mouse interneurons
   whose subtypes were molecularly identified. 231 ROIs were observed over 3 separate
   imaging sessions. For each session you will find the following:
 
   - Raw images (individual cropped ROIs)
 
-  - DfOverF traces
+  - DfOverF
 
-  - Fluorescence traces
+  - fluorescence
 
-  - Subtype of each ROI (some are undetermined)
+  - determined subtype of each ROI
 
-  - Timing of water rewards
+  - timing of water rewards
 
-  - Time-stamped position of subject
+  - time-stamped position of mouse on a stationary, cue-enriched treadmill
 
 
 
   Data was collected by Tristan Geiller at the Losonczy Lab using two photon calcium
   imaging and head-fixed mice running on a voluntary treadmill.'
+doi: 10.48324/dandi.000625/0.231114.0017
 ethicsApproval: []
-id: DANDI:000625/draft
+id: DANDI:000625/0.231114.0017
 identifier: DANDI:000625
 keywords:
 - 2-photon calcium imaging
@@ -142,17 +143,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000625/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000625/0.231114.0017/assets.yaml
 name: Molecularly Identified CA1 Interneuron Dynamics
 protocol: []
 publishedBy:
-  endDate: '2023-11-14T00:19:40.618448+00:00'
-  id: urn:uuid:a5729532-26e9-4342-b388-60698b8fedf4
+  endDate: '2023-11-14T00:17:01.340743+00:00'
+  id: urn:uuid:55241be5-fbe9-42f9-ba2f-40caab664668
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-11-14T00:19:40.618448+00:00'
+  startDate: '2023-11-14T00:17:01.340743+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:a375020a-655f-45f7-8b07-a7a6e4ebeeac
+  - id: urn:uuid:dac322d1-624f-4b5d-aa6b-a88d051745b1
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -167,6 +168,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000625/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000625/0.231114.0017
+version: 0.231114.0017
 wasGeneratedBy: []
